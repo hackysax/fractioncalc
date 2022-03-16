@@ -11,6 +11,6 @@ Install:
 1. 
 
 To Run: 
-1. Open the comand line with python in the PATH 
+1. Open a terminalm make sure python is in the PATH 
 2. In the command line, navigate to the installed directory
 3. Type py fractioncalc.py
