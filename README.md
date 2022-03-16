@@ -5,32 +5,38 @@
 ## Python terminal application for calculating fractional arithmetic.
 
 ## Requirements:
-1. Python 3.10 https://www.python.org/downloads/
+1. [Python 3.10](https://www.python.org/downloads/)
 
 ## Install:
-1. Download this repo as a zip and extract to a directory of your choice.
+1. Download this repository as a zip and extract to a directory of your choice.
 
 ## To Run: 
-1. Open a terminal and make sure python is in the PATH 
-2. In the command line, navigate to the installed directory
-3. Type py fractioncalc.py
+1. Open a terminal and make sure python is in the PATH. 
+2. In the command line, navigate to the installed directory.
+3. In the command line, type:
+    ```py fractioncalc.py```
 
 ## Files:
-1. fractioncalc.py, python application
-2. testData.py, import file for testing the reduce() function in fractioncalc.py
-3. TestData.xslx Excel workbook for generating some test data
+1. fractioncalc.py
+   - Python application file.
+2. testData.py
+   - Imported for testing the reduce() function in fractioncalc.py.
+3. TestData.xslx
+   - An Excel workbook for generating some test data.
+4. readme.md
 
 ## About this application
-*Upon running, the user will be prompted to enter in a fractinoal arithmetic problem with one operator and two operands.
-*The user may enter '?' for instructions or 'Q' to quit at any time.
-*Valid inputs are positive or negative, whole, fractional (proper or imporper), or mixed numbers. 
-*No decimals are allowed. 
-*Negative signs must lead the entire operand and there must be no whitespace between the sign and the number.
-*Fractions are reduced by finding prime factors then comparing them to find the GCD.
-*If the user types 'test' a propt for unit testing will appear. Once the test is run, the application will quit.
+- Upon running, the user will be prompted to enter in a fractional arithmetic problem with one operator and two operands.
+- The user may enter '?' for instructions or 'Q' to quit at any time.
+- Valid inputs are positive or negative, whole, fractional (proper or improper), or mixed numbers. 
+- No decimals are allowed. 
+- Negative signs must lead the entire operand and there must be no whitespace between the sign and the number.
+- Fractions are reduced by finding prime factors then comparing them to find the GCD.
+- If the user types 'test' a prompt for unit testing will appear. Once the test is run, the application will quit.
 
 ## TO DO:
-1. Option A: Set a limit on denominator size to avoid very long calculation times for numbers with very large denominators (~10^9)
-2. OPtion B: Warn user they might be waiting a while or have a time-out function. 
-3. Program should handle n number of terms and follow PEMDAS
-4. Program should handle parentheses and exponents
+1. Deal with the case of finding the LCD of very large numerators and denoninators (~10^9).
+   - Option A: Set a limit on denominator size to avoid very long calculation times for numbers with very large denominators.
+   - Option B: Warn user they might be waiting a while or have a time-out function. 
+2. Program should handle n number of terms and follow PEMDAS.
+3. Program should handle parentheses and exponents.
