@@ -35,8 +35,8 @@
 - If the user types 'test' a prompt for unit testing will appear. Once the test is run, the application will quit.
 
 ## TO DO:
-1. Deal with the case of finding the LCD of very large numerators and denoninators (~10^9).
-   - Option A: Set a limit on denominator size to avoid very long calculation times for numbers with very large denominators.
-   - Option B: Warn user they might be waiting a while or have a time-out function. 
+1. Deal with the case of finding the LCD of very large numerators and denominators (~10^9).
+   - Option A: Set a limit on denominator size.
+   - Option B: Warn user they might be waiting a while or have a time-out/display percentage function. 
 2. Program should handle n number of terms and follow PEMDAS.
 3. Program should handle parentheses and exponents.
